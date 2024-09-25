@@ -18,7 +18,7 @@ body {
 .main-header {
     background-color: rgb(230, 230, 230);
     width: 1200px;
-    height: 160px;
+    height: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ body {
 }
 
 .list-item {
-    margin: 20px;
+    margin: 30px;
 }
 li a {
     text-decoration: none;
