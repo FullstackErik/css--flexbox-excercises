@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Signika";
+}
+
+.card {
+    border-radius: 4px;
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40%;
+    font-size: 18px;
+    font-style: italic;
+    /* background-color: brown; */
+    width: 90%;
+    font-weight: 500;
+}
+
+h2 {
+    margin: 20px 0;
+    color: rgba(0,0,0,0.2);
+    font-size: 18px;
+}
+footer {
+    width: 40%;
+    height: 20px;
+    /* background-color: aquamarine; */
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a {
+    background-color: rgb(124, 124, 124);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+.active:hover {
+    background-color: rgb(0,0,0);
+}
